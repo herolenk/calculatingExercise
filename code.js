@@ -29,9 +29,9 @@ document.getElementById('whatIsYPercentOfX').addEventListener('submit', function
         var result = y /100 * x;
 
         firstResult.innerText = result;
-
+        firstResult.style.display = 'inline';
         event.preventDefault();
-
+        
     }
     
 
@@ -74,7 +74,7 @@ document.getElementById('xIsYPercentOfWhat').addEventListener('submit', function
            
            var result = x * 100/y;
            secondResult.innerText = result;
-           
+           secondResult.style.display = 'inline';
            event.preventDefault();
            
        }
@@ -120,7 +120,7 @@ var whatPercentOfXisY = function(){
                
                var result= 100 * y /x;
                thirdResult.innerText = result;
-               
+               thirdResult.style.display = 'inline';
            }
         
         });
@@ -161,7 +161,7 @@ document.getElementById('xPercentOfWhatIsY').addEventListener('submit', function
         
            var result = 100 * y / x;
            forthResult.innerText = result;
-        
+            forthResult.style.display = 'inline';
            
            event.preventDefault();
         
@@ -200,6 +200,7 @@ var yPercentOfXIsWhat = function(){
            
                 var result = x * y / 100; 
                 fifthResult.innerText = result;
+               fifthResult.style.display = 'inline';
                 event.preventDefault();
            
            }

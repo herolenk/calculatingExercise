@@ -30,7 +30,7 @@ h2{
     margin: 8rem;
 }
 h3{
-    display: none;
+    
 }
 body{
     background: #67B26F;
@@ -53,6 +53,11 @@ input{
     margin-left: 2rem;
     margin-right: 2rem;
     padding: 7px;
+    color: black;
+    font-size: 1.5rem;
+}
+span{
+    display: none;
 }
 .submit{
     background-color: maroon;
