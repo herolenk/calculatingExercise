@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js Exercise</title>
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer|Lobster" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <h1>JavaScript Exercises</h1>
+        <nav>
+            <ul>
+                <a href="#whatIsYPercentOfX"><li>What is Y% of X?</li></a>
+                <a href="#xIsYPercentOfWhat"><li>X is Y% of What?</li></a>
+                <a href="#whatPercentOfXisY"><li>What % of X is Y?</li></a>
+                <a href="#xPercentOfWhatIsY"><li>X% of what is Y?</li></a>
+                <a href="#yPercentOfXIsWhat"><li>Y% of X is what?</li></a>
+            </ul>
+        </nav>
+        <div id="formGroup1">
+            <h2>What is Y% of X?</h2>
+            <form id="whatIsYPercentOfX">
+                What is <input type="text" placeholder="Y" id="firstY">% of <input type="text" placeholder="X" id="firstX">?
+                <input type="submit" value="Calculate" class="submit">
+            </form>
+            <h3>Answer: <span id="firstResult">5</span>%</h3>
+        </div>
+
+
+        <div id="formGroup2">
+            <h2>X is Y% of What?</h2>
+            <form id="xIsYPercentOfWhat">
+                <input type="text" placeholder="X" id="secondX">is <input type="text" placeholder="Y" id="secondY">% of What ?
+                <input type="submit" value="Calculate" class="submit">
+            </form>
+            <h3>Answer: <span id="secondResult">10</span></h3>
+        </div>
+
+
+        <div id="formGroup3">
+            <h2>What % of X is Y?</h2>
+            <form id="whatPercentOfXisY">
+                What % of <input type="text" placeholder="X" id="thirdX">is <input type="text" placeholder="Y" id="thirdY">?
+                <input type="submit" value="Calculate" class="submit">
+            </form>
+            <h3>Answer: <span id="thirdResult">15</span></h3>
+        </div>
+
+
+        <div id="formGroup4">
+            <h2>X% of what is Y?</h2>
+            <form id="xPercentOfWhatIsY">
+                <input type="text" placeholder="X" id="forthX">% of what is <input type="text" placeholder="Y" id="forthY">?
+                <input type="submit" value="Calculate" id="forthResult" class="submit">
+            </form>
+            <h3>Answer: <span id="resultForth">5</span></h3>
+        </div>
+
+        <div id="formGroup5">
+            <h2>Y% of X is what?</h2>
+            <form id="yPercentOfXIsWhat">
+                <input type="text" placeholder="Y" id="fifthY">% of <input type="text" placeholder="X" id="fifthX"> is what?
+                <input type="submit" value="Calculate" class="submit">
+            </form>
+            <h3>Answer: <span id="fifthResult">5</span></h3>
+        </div>
+    </div>
+    <script src="code.js" type="text/javascript"></script>
+</body>
+</html>

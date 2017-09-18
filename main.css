@@ -1,0 +1,59 @@
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    background-color: rgba(79,163,250,0.6);
+    border: 5px solid rgba(79,163,250,1);
+    display:inline-block;
+    padding: 1%;
+    color:antiquewhite;
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+}
+
+h1{
+    text-align: center;
+    color: crimson;
+    font-family: 'Lobster' , cursive;
+    letter-spacing: 0.8rem;
+    font-size: 8rem;
+    margin: 5%;
+}
+h2{
+    font-family: 'Lobster' , cursive;
+    font-weight: 200;
+    margin: 8rem;
+}
+h3{
+    display: none;
+}
+body{
+    background: #67B26F;
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  
+    background: linear-gradient(to right, #4ca2cd, #67B26F); 
+}
+div[id*='form']{
+    padding: 50px;
+    color: white;
+    font-family: 'IM Fell Great Primer', serif;
+    line-height: 2rem;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    border: 5px groove maroon;
+    text-align: center;
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+}
+input{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 7px;
+}
+.submit{
+    background-color: maroon;
+}
